@@ -125,7 +125,7 @@ function motivation( firstname, lastname ) {
 
   // code message function here.
   function message() {
-    return `You're doing awesome, keep it up ${firstname} ${lastname}.`;
+    return `${welcomeText} ${firstname} ${lastname}.`;
   }
   //Uncommment this to return the value of your message function
   return message;
